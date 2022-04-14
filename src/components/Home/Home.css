@@ -1,9 +1,23 @@
 .home-container{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
 }
 .button{
+  margin: auto;
   border: 3px solid yellow;
   padding: 8px;
   background: blue;
+}
+.button :hover{
+  background-color: #FFB400;
+}
+.dev-img{
+height: 30rem;
+  border: 3px solid #FFB400;
+}
+.dev-info{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
