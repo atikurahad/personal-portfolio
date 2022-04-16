@@ -6,11 +6,14 @@ const Home = () => {
   return (
     <>
       <div className="home-container">
-        <div className="text-white">
-          <img className="dev-img" src="https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720__480.jpg" alt="dev-img"></img>
+        <div className="dev-img">
+          <img
+            src="https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720__480.jpg"
+            alt="dev-img"
+          ></img>
         </div>
+
         <div className="text-center dev-info">
-          {" "}
           <p className="text-[gold]  text-4xl mt-5">I'M ATIKUR RAHAMAN AHAD.</p>
           <br></br>
           <p className="text-white text-4xl"> WEB DEVELOPER</p>

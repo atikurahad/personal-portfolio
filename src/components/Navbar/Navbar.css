@@ -1,0 +1,17 @@
+.navbar{
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: flex-end;
+  height: 4rem;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: gray;
+}
+.nav-link{
+  margin-right: 2.5rem;
+  padding: 5px;
+}
+/* .nav-link :hover{
+  background-color: tomato;
+} */
