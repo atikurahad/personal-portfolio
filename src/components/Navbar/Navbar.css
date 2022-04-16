@@ -6,7 +6,7 @@
   height: 4rem;
   font-size: 2rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background: gray;
+  background: rgba(128, 128, 128, 0);
 }
 .nav-link{
   margin-right: 2.5rem;
